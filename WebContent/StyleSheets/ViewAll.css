@@ -1,0 +1,28 @@
+@CHARSET "ISO-8859-1";
+body {
+color: black;
+background-image: url(IMAGES/ViewAll.jpg);
+background-size: 100% 100%;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+}
+h1
+{
+	color: black;
+	background-color: White;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+      filter: alpha(opacity=50);
+       background: rgba(204, 204, 204, 0.3);
+}
+.apply
+{
+	background-color: White;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+      filter: alpha(opacity=50);
+       background: rgba(204, 204, 204, 0.3);
+}
+a
+{
+	color:white;
+}

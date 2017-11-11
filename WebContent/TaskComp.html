@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Task_Comp</title>
+</head>
+<body> 
+    <form id="form2" runat="server">
+    <div>              
+    </div> 
+    <h2 align="center"> Task Completion:</h2>
+    <table id="table1"; cellspacing="5px" cellpadding="5%"; align="center">
+       <tr>
+		              <td  align="right" class="style1">
+              Task No.:
+              		</td>
+              <td class="style1"><input type="text" name="Task_num" maxlength="7" /></td>
+       </tr>
+       <tr>
+        		      <td align="right">
+        	   Task Description:
+        	   		  </td>
+        <td>
+              <textarea rows="3" cols="15" name="Description" maxlength="20" ></textarea>
+        	  <p>Brief Description should have atmost 20 characters</p>
+        </td>
+       </tr>
+       <tr>
+              			<td align="right">
+              Add Attachment
+              			</td>
+        <td>
+              <input type="radio" name="attachemnt" value="Yes" />Yes
+        	  <input type="radio" name="attachment" value="No" checked/>No
+        </td>
+       </tr>
+       <tr>
+              			<td align="right">
+              Task Actionee:
+              			</td>
+        <td>
+              <input type="text" name="Comp_by" maxlength="10" />
+        </td>
+       </tr>
+       <tr>
+              			<td align="right">
+              Status:
+              			</td>
+        <td>
+              <input type="text" name="Status" maxlength="6" />
+        </td>
+       </tr>
+       <tr>
+              			<td align="right">
+              Comments:
+              			</td>
+        <td>
+              <textarea rows="3" cols="15" name="Comments" maxlength="250" ></textarea>
+        	  <p>Brief Description should have atmost 250 characters</p>
+        </td>
+       </tr>
+        <tr>
+        <td> 
+        		<input type="button" value="Submit" align="right"/>
+        <td> 	<input type="button" value="Logout" />       
+        </td>
+        </tr>
+</table> 
+    </form>
+</body>
+</html>
